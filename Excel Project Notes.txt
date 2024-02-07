@@ -1,0 +1,23 @@
+Excel Project Documentation:
+
+1. Created new tabs - Working Sheet, Pivot Tables, Dashboard
+2. Selected the whole table and removed duplicates - removed 26 duplicates from the data.
+3. The column 'Maritial Status' and 'Gender' both uses 'M' as their values, meaning either 'Married' or 'Male' respectively.
+   To avoid any confusion, the 'Find and Replace' tool (CTRL + H) was used to update the Marrial Status and Gender values.
+4. The Age values are not condensed into a range. It would be easier to visualise tables/dashboards if they were categorised
+   within an age bracket (e.g. Adolescent, Middle-aged, Old). Nested '=IF()' formula was used to create If/Else statements.
+
+5. Created a pivot table to determine whether the average income between male and female had any effect on purchasing a bike. A bar chart was 
+   created from the pivot table to visualise the data. It was clear that the higher average income were more likely to purchase a bike. 
+
+6. Another pivot table was created to see if the distance that customer travelled for work influenced them to buy a bike. A line chart was created
+   which indicated that customers who commuted further were less likely to purchase a bike. 
+
+7. Another pivot table was created to inspect whether an age range were more particularly buying more bike. From the line chart, it was clear
+   that the middle aged group were significantly purchasing more bikes than the other two age groups. 
+
+8. Lastly, the dashboard was created. All of the charts created in the pivot table was transferred into this page. The grids were removed 
+   for visual purposes. The 'PivotChart Analyse Slicer' feature was used to analyse if different variables influenced customers to purchase a bike, 
+   including maritial status, region, and education. All of the slicers were connected to all of the tables with 'Report Connections'.
+   This helps narrow the certain demographic even futher and filter through all of them. 
+    
