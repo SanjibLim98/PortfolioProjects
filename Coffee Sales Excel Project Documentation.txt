@@ -1,0 +1,37 @@
+1. Filled in the empty column spaces (column F-M). 
+   - Customer name, Email and Country is filled using XLOOKUP.
+
+   - Index() function is used with Match() to populate Coffee Type, Roast Type, Size, and Unit Price columns.
+     // learned how to use Absolute, Relative and Mixed references in a formula. 
+
+   - Sales field was calculated by simply multiplying the Unit Price with the Quantity Sold
+
+2. The Coffee Type and Roast Type fields are only using abbreviation. Two new columns were created and filled with the full names
+    by using IF/ELSE function.
+   
+
+3. Number Formatting Cells (CTRL + 1)
+
+   - Changed the date format, using letter abbreviation instead of just numbers to avoid confusion 
+     between Europian/American date format. Custom: dd/mmm/yyyy
+   - Added metric units for the Size; Custom: 0.0"kg"
+   - Added currency units for Unit Price and Sales 
+   - Selected entire table and check/remove duplicates. 
+
+4. Converted range into table (CTRL + T)
+   -  Excel tables automatically expand or contract to accommodate changes to the data. When you add 
+      new data to the table or modify existing data, the table range adjusts automatically.
+   -  Excel pivot tables have a built-in feature to automatically refresh when changes are detected in the source 
+      data. This means that when you make changes to the table data, such as adding, removing, or modifying records, the pivot table 
+      will refresh itself to reflect these changes.
+
+5. Pivot Table was created (ALT + N+V+T)
+   - Pivot table was created to look at the sum of sales of the different coffee types over the past years. 
+   - A line chart with a time line was produced from this table. Also various slicers (size, roast type, loyalty card) 
+     to inspect how different variables affected the price.
+
+6. Duplicated the Pivot table twice in two more work sheets. One for Sales by Country and other for Top 5 customers.
+   - A simple bar chart was created to visualise the data.
+
+7. Lastly, a Dashboard was created with all of the line and bar charts. Report connections were applied to all of the timeline and slicers
+   so it displayed changes to all of the graphs. 
